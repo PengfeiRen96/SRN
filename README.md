@@ -2,8 +2,9 @@ This project corresponds to SRN: Stacked Regression Network for Real-time 3D Han
 
 Code is coming soon.
 # Realtime 
-![normal](https://github.com/RenFeiTemp/SRN/tree/master/realtime/normal.gif)
-Demos above are realtime results from KinectV2 using models trained on Hands17 dataset.
+![demo1](gif/normal.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![demo2](gif/small_hand.gif)
+
+<sup>\* Demos above are realtime results from Kinect V2 using models trained on [Hands17](http://icvl.ee.ic.ac.uk/hands17/challenge/) dataset. </sup></br>
 
 # Comparison with state-of-the-art methods
 ## NYU
