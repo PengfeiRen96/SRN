@@ -4,7 +4,7 @@ Code is coming soon.
 # Realtime 
 ![demo1](realtime/normal.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![demo2](realtime/small_hand.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![demo3](realtime/hard2.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![demo3](realtime/hard_case.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <sup>\* Demos above are realtime results from Kinect V2 using models trained on [Hands17](http://icvl.ee.ic.ac.uk/hands17/challenge/) dataset (Intel Realsense SR300). </sup></br>
 
