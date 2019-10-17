@@ -9,4 +9,4 @@ Code is coming soon.
 ## MSRA
 ![MSRA](https://github.com/RenFeiTemp/SRN/blob/master/fig/msra.png)
 ## HANDS17
-![HANDS17](https://github.com/RenFeiTemp/SRN/blob/master/fig/hands17.png)
+![HANDS17](https://github.com/RenFeiTemp/SRN/blob/master/fig/hands17.jpg)
