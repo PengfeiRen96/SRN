@@ -1,4 +1,5 @@
-# SRN: Stacked Regression Network for Real-time 3D Hand Pose Estimation [paper](https://bmvc2019.org/wp-content/uploads/papers/0918-paper.pdf)
+# SRN: Stacked Regression Network for Real-time 3D Hand Pose Estimation 
+[paper](https://bmvc2019.org/wp-content/uploads/papers/0918-paper.pdf)[supplementary](https://bmvc2019.org/wp-content/uploads/papers/0918-supplementary.pdf)
 
 # Realtime demo
 ## normal hand  
