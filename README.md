@@ -15,9 +15,9 @@ Download models from [here](https://drive.google.com/drive/folders/1QG6F9aD4t-LL
 Put checkpoint/ in realtime/
 
 ## Prepare test data
-We provide some data collected by Kinect 2 in realtime/data/kinect2 for testing.
+We provide some data collected by Kinect V2 in realtime/data/kinect2 for testing.
 
-(Currently only kinectv2 and realsense R300 are supported. If you want to use the depth map obtained by other sensors, you can configure the corresponding sensor parameters in run.py)
+(Currently only Kinect V2 and realsense R300 are supported. If you want to use the depth map obtained by other sensors, you can configure the corresponding sensor parameters in run.py)
 
 ## Testing
 ```bash
