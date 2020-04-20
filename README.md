@@ -1,6 +1,5 @@
 This project corresponds to SRN: Stacked Regression Network for Real-time 3D Hand Pose Estimation, which is accepted in BMVC 2019.
 
-Code is coming soon.
 # Realtime demo
 ## normal hand  
 ![demo1](realtime/gif/normal.gif)
@@ -8,6 +7,7 @@ Code is coming soon.
 ![demo2](realtime/gif/small_hand.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <sup>\* Demos above are realtime results from Kinect V2 using models trained on [Hands17](http://icvl.ee.ic.ac.uk/hands17/challenge/) dataset (Intel Realsense SR300). </sup></br>
+# Usage 
 
 # Comparison with state-of-the-art methods
 ## NYU
