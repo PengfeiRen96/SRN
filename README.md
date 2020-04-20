@@ -9,6 +9,19 @@ This project corresponds to SRN: Stacked Regression Network for Real-time 3D Han
 <sup>\* Demos above are realtime results from Kinect V2 using models trained on [Hands17](http://icvl.ee.ic.ac.uk/hands17/challenge/) dataset (Intel Realsense SR300). </sup></br>
 # Usage 
 
+## Prepare pre-trained models
+Download models from [here](https://drive.google.com/drive/folders/1QG6F9aD4t-LLupoguWVpBm-fUyGPNRl0?usp=sharing).
+Put checkpoint in realtime/.
+
+## Prepare test data
+Put your test data in folder realtime/data/
+
+## Testing
+```bash
+cd realtime
+python run.py --data_dir ./data/your_folder_name --test_dataset kinect2 or realsense  
+```
+
 # Comparison with state-of-the-art methods
 ## NYU
 ![NYU](https://github.com/RenFeiTemp/SRN/blob/master/fig/nyu.png)
