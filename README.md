@@ -11,10 +11,11 @@ This project corresponds to SRN: Stacked Regression Network for Real-time 3D Han
 
 ## Prepare pre-trained models
 Download models from [here](https://drive.google.com/drive/folders/1QG6F9aD4t-LLupoguWVpBm-fUyGPNRl0?usp=sharing).
-Put checkpoint in realtime/.
+
+Put checkpoint/ in realtime/
 
 ## Prepare test data
-Put your test data in folder realtime/data/
+Put your test data in folder realtime/data/ (Currently only kinectv2 or realsense R300 are supported. If you want to use the depth map obtained by other sensors, you can configure the corresponding sensor parameters in run.py)
 
 ## Testing
 ```bash
