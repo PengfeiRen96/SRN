@@ -276,11 +276,11 @@ def debug_point_feature(data, index, GFM_):
     print(index)
 
 
-def debug_2d_img(img,joint_img,index,dataset,batch_size):
-    input_size = img.size(-1)
+def debug_2d_pose(img, joint_img, index, dataset, save_dir, save_name):
+    batch_size, _, _, input_size = img.size()
     for img_idx in range(img.size(0)):
         joint_uvd = (joint_img + 1) / 2 * input_size
         img_draw = (img.detach().cpu().numpy() + 1) / 2 * 255
         img_show = draw_pose(dataset, cv2.cvtColor(img_draw[img_idx, 0], cv2.COLOR_GRAY2RGB), joint_uvd[img_idx])
-        cv2.imwrite('./debug/' + str(index*batch_size + img_idx) + '.png', img_show)
-        # cv2.imwrite('./debug/pose_' + str(index) + '_' + str(img_idx) + '.png', img_show)
+        cv2.imwrite(save_dir + str(index*batch_size + img_idx) +'_' + save_name + '.png', img_show)
+        return img_show
